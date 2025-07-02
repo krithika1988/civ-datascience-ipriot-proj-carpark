@@ -1,7 +1,7 @@
 from interfaces import CarparkSensorListener
 from interfaces import CarparkDataProvider
 import time
-
+import math
 class BayStatusTracker:
     """Tracks the status of each parking bay (occupied or available)."""
     def __init__(self, num_bays: int):
